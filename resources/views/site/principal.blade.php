@@ -1,4 +1,5 @@
 @extends('site.layouts.basico')
+@section('titulo','Super Gestão - Principal')
 
 @section('conteudo')
         <div class="topo">
