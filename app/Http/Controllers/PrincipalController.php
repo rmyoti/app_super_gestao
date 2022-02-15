@@ -7,14 +7,10 @@ use Illuminate\Http\Request;
 class PrincipalController extends Controller
 {
     function principal(){
-        return view('site.principal');
-    }
-    
-    function contato(){
-        return view('site.contato');
+        return view('site.principal', ['titulo' => 'Home']);
     }
 
     function sobrenos(){
-        return view('site.sobrenos');
+        return view('site.sobrenos',  ['titulo' => 'Sobre Nós']);
     }
 }
